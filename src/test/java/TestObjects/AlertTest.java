@@ -44,6 +44,12 @@ public class AlertTest {
         alert.dismissConfirmAlert();
     }
 
+    @Test
+    public void CopyBranch(){
+        alert.clickConfirmButton();
+        alert.dismissConfirmAlert();
+    }
+
 }
 
 
