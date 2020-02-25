@@ -32,7 +32,17 @@ public class AlertTest {
         alert.dismissConfirmAlert();
     }
 
+    @Test
+    public void GitAddTest(){
+        alert.clickConfirmButton();
+        alert.dismissConfirmAlert();
+    }
 
+    @Test
+    public void FirstBranch(){
+        alert.clickConfirmButton();
+        alert.dismissConfirmAlert();
+    }
 
 }
 
